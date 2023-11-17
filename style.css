@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: #bebebe;
+}
+
+#menu-horizontal ul {
+  list-style: none;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+#menu-horizontal {
+  text-align: center;
+}
+
+#menu-horizontal ul li {
+  display: inline-block;
+}
+
+#menu-horizontal ul li a {
+  color: #787474;
+  display: block;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  transition: 0.6s;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+#menu-horizontal ul li a:hover {
+  background-color: burlywood;
+  border-radius: 15px;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.container-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.container {
+  width: 350px; 
+  min-height: 200px; 
+  background-color: black; 
+  border: 2px solid #808080;
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0); 
+  color: #fff; 
+  text-align: center; 
+  transition: 0.3s; 
+  text-decoration: none;
+}
+
+.container:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+#habilidades img {
+  margin-top: 10px;
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
+}
+
+#contato img {
+  margin-top: 10px;
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
